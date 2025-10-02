@@ -1,5 +1,5 @@
-resource "azurerm_resource_group" "rg-vm" {
+resource "azurerm_resource_group" "rg-test-tfstate" {
   location = "eastus"
-  name     = "rg-vm"
-  tags     = { Departamento = "Financeiro" }
+  name     = "rg-test-tfstate"
+  tags     = { Departamento = "Tecnologia da Informação" }
 }
