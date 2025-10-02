@@ -4,5 +4,5 @@ variable "rg-name" {
 
 variable "location" {
   description = "Localização do Recurso"
-  default = "eastus"
+  default     = "eastus"
 }
