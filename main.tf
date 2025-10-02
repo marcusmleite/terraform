@@ -1,5 +1,5 @@
-resource "azurerm_resource_group" "rg-vm-v2" {
+resource "azurerm_resource_group" "rg-vm" {
   location = "eastus"
-  name = "rg-vm-v2"
-  tags = {Departamento="Financeiro"}
+  name     = "rg-vm"
+  tags     = { Departamento = "Financeiro" }
 }
